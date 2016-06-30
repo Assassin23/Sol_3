@@ -8,27 +8,32 @@
     <title>Bootstrap Starter Page</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
    </head>
 <body>
   <header>
   	 <nav id="header-nav" class="navbar navbar-default">
-  <div class="container-fluid">
+  	
+  <div class="container">
+  
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
+       <a class="navbar-brand" href="inndex.html" id="brand">Food, LLC</a>
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Food, LLC</a>
+      
     </div>
 
-      <div class="collapse navbar-collapse" id="collapsable-nav">
-      <ul class="nav navbar-nav" id="nav-list">
-            <li><a class="hidden-md hidden-lg hidden-sm "  href="#"> Chicken</a></li>
-            <li><a class="hidden-md hidden-lg hidden-sm " href="#">Beef</a></li>
-            <li><a class="hidden-md hidden-lg hidden-sm" href="#">Sushi</a></li>
+      <div class="navbar-collapse collapse" id="collapsable-nav" aria-expanded="false" >
+      <ul class="nav navbar-nav navbar-right hidden-lg hidden-sm hidden-md" id="nav-list">
+            <li><a  href="#one"> Chicken</a></li>
+            <li><a  href="#two">Beef</a></li>
+            <li><a  href="#three">Sushi</a></li>
        </ul>
       </div>
   </div><!-- /.container-fluid -->
@@ -40,35 +45,37 @@
   <h1 class="text-center">Our Menu</h1>
 
 <div class="main-content"  >
- <h2  class="text-center" >Chicken</h2>
+ <h2  class="text-center" id="one" >Chicken</h2>
  <p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec enim, omnes avaritias si aeque avaritias esse dixerimus, sequetur ut etiam aequas esse dicamus. Vide ne ista sint Manliana vestra aut maiora etiam, si imperes quod facere non possim. Quaeque sunt vetera praecepta sapientium, qui iubent tempori parere et sequi deum et se noscere et nihil nimis, haec sine physicis quam vim habeant-et habent maximamvidere nemo potest. Omnesque eae sunt genere quattuor, partibus plures, aegritudo, formido, libido, quamque Stoici communi nomine corporis et animi ¾donÆn appellant, ego malo laetitiam appellare, quasi gestientis animi elationem voluptariam. Quid autem dici poterit, si turpitudinem non ipsam per se fugiendam esse statuemus, quo minus homines tenebras et solitudinem nacti nullo dedecore se abstineant, nisi eos per se foeditate sua turpitudo ipsa deterreat? Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibus finxerit. Duo Reges: constructio interrete. Quis, quaeso, inquit, est, qui quid sit voluptas nesciat, aut qui, quo magis id intellegat, definitionem aliquam desideret? Non enim actionis aut officii ratio impellit ad ea, quae secundum naturam sunt, petenda, sed ab iis et appetitio et actio commovetur. Primum non saepe, deinde quae est ista relaxatio, cum et praeteriti doloris memoria recens est et futuri atque inpendentis torquet timor? Cynicorum autem rationem atque vitam alii cadere in sapientem dicunt, si qui eius modi forte casus inciderit, ut id faciendum sit, alii nullo modo. Non enim actionis aut officii ratio impellit ad ea, quae secundum naturam sunt, petenda, sed ab iis et appetitio et actio commovetur. </p>
 
 <p>Itaque e contrario moderati aequabilesque habitus, affectiones ususque corporis apti esse ad naturam videntur. Se omnia, quae secundum naturam sint, b o n a appellare, quae autem contra, m a l a. Num igitur utiliorem tibi hunc Triarium putas esse posse, quam si tua sint Puteolis granaria? Amicitiae vero locus ubi esse potest aut quis amicus esse cuiquam, quem non ipsum amet propter ipsum? Is ita vivebat, ut nulla tam exquisita posset inveniri voluptas, qua non abundaret. Nemo enim est, qui aliter dixerit quin omnium naturarum simile esset id, ad quod omnia referrentur, quod est ultimum rerum appetendarum. Nam cum in Graeco sermone haec ipsa quondam rerum nomina novarum * * non videbantur, quae nunc consuetudo diuturna trivit; Curium putes loqui, interdum ita laudat, ut quid praeterea sit bonum neget se posse ne suspicari quidem. Itaque e contrario moderati aequabilesque habitus, affectiones ususque corporis apti esse ad naturam videntur. Sed id ne cogitari quidem potest quale sit, ut non repugnet ipsum sibi. Nam ceteris in rebus síve praetermissum sive ignoratum est quippiam, non plus incommodi est, quam quanti quaeque earum rerum est, in quibus neglectum est aliquíd. Quam haec sunt contraria! hic si definire, si dividere didicisset, si loquendi vim, si denique consuetudinem verborum teneret, numquam in tantas salebras incidisset. </p>
 
 </p>
+ <a href="#top">Back to top</a>
   </div>
  
  <div class="main-content" >
- <h2 class="text-center">Beef</h2>
+ <h2 class="text-center" id="two">Beef</h2>
  <p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec enim, omnes avaritias si aeque avaritias esse dixerimus, sequetur ut etiam aequas esse dicamus. Vide ne ista sint Manliana vestra aut maiora etiam, si imperes quod facere non possim. Quaeque sunt vetera praecepta sapientium, qui iubent tempori parere et sequi deum et se noscere et nihil nimis, haec sine physicis quam vim habeant-et habent maximamvidere nemo potest. Omnesque eae sunt genere quattuor, partibus plures, aegritudo, formido, libido, quamque Stoici communi nomine corporis et animi ¾donÆn appellant, ego malo laetitiam appellare, quasi gestientis animi elationem voluptariam. Quid autem dici poterit, si turpitudinem non ipsam per se fugiendam esse statuemus, quo minus homines tenebras et solitudinem nacti nullo dedecore se abstineant, nisi eos per se foeditate sua turpitudo ipsa deterreat? Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibus finxerit. Duo Reges: constructio interrete. Quis, quaeso, inquit, est, qui quid sit voluptas nesciat, aut qui, quo magis id intellegat, definitionem aliquam desideret? Non enim actionis aut officii ratio impellit ad ea, quae secundum naturam sunt, petenda, sed ab iis et appetitio et actio commovetur. Primum non saepe, deinde quae est ista relaxatio, cum et praeteriti doloris memoria recens est et futuri atque inpendentis torquet timor? Cynicorum autem rationem atque vitam alii cadere in sapientem dicunt, si qui eius modi forte casus inciderit, ut id faciendum sit, alii nullo modo. Non enim actionis aut officii ratio impellit ad ea, quae secundum naturam sunt, petenda, sed ab iis et appetitio et actio commovetur. </p>
 
 <p>Itaque e contrario moderati aequabilesque habitus, affectiones ususque corporis apti esse ad naturam videntur. Se omnia, quae secundum naturam sint, b o n a appellare, quae autem contra, m a l a. Num igitur utiliorem tibi hunc Triarium putas esse posse, quam si tua sint Puteolis granaria? Amicitiae vero locus ubi esse potest aut quis amicus esse cuiquam, quem non ipsum amet propter ipsum? Is ita vivebat, ut nulla tam exquisita posset inveniri voluptas, qua non abundaret. Nemo enim est, qui aliter dixerit quin omnium naturarum simile esset id, ad quod omnia referrentur, quod est ultimum rerum appetendarum. Nam cum in Graeco sermone haec ipsa quondam rerum nomina novarum * * non videbantur, quae nunc consuetudo diuturna trivit; Curium putes loqui, interdum ita laudat, ut quid praeterea sit bonum neget se posse ne suspicari quidem. Itaque e contrario moderati aequabilesque habitus, affectiones ususque corporis apti esse ad naturam videntur. Sed id ne cogitari quidem potest quale sit, ut non repugnet ipsum sibi. Nam ceteris in rebus síve praetermissum sive ignoratum est quippiam, non plus incommodi est, quam quanti quaeque earum rerum est, in quibus neglectum est aliquíd. Quam haec sunt contraria! hic si definire, si dividere didicisset, si loquendi vim, si denique consuetudinem verborum teneret, numquam in tantas salebras incidisset. </p>
 
 </p>
+<a href="#top">Back to top</a>
  </div>
  
  <div class="main-content">
- <h2 class="text-center">Sushi</h2>
+ <h2 class="text-center" id="three">Sushi</h2>
  <p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec enim, omnes avaritias si aeque avaritias esse dixerimus, sequetur ut etiam aequas esse dicamus. Vide ne ista sint Manliana vestra aut maiora etiam, si imperes quod facere non possim. Quaeque sunt vetera praecepta sapientium, qui iubent tempori parere et sequi deum et se noscere et nihil nimis, haec sine physicis quam vim habeant-et habent maximamvidere nemo potest. Omnesque eae sunt genere quattuor, partibus plures, aegritudo, formido, libido, quamque Stoici communi nomine corporis et animi ¾donÆn appellant, ego malo laetitiam appellare, quasi gestientis animi elationem voluptariam. Quid autem dici poterit, si turpitudinem non ipsam per se fugiendam esse statuemus, quo minus homines tenebras et solitudinem nacti nullo dedecore se abstineant, nisi eos per se foeditate sua turpitudo ipsa deterreat? Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibus finxerit. Duo Reges: constructio interrete. Quis, quaeso, inquit, est, qui quid sit voluptas nesciat, aut qui, quo magis id intellegat, definitionem aliquam desideret? Non enim actionis aut officii ratio impellit ad ea, quae secundum naturam sunt, petenda, sed ab iis et appetitio et actio commovetur. Primum non saepe, deinde quae est ista relaxatio, cum et praeteriti doloris memoria recens est et futuri atque inpendentis torquet timor? Cynicorum autem rationem atque vitam alii cadere in sapientem dicunt, si qui eius modi forte casus inciderit, ut id faciendum sit, alii nullo modo. Non enim actionis aut officii ratio impellit ad ea, quae secundum naturam sunt, petenda, sed ab iis et appetitio et actio commovetur. </p>
 
 <p>Itaque e contrario moderati aequabilesque habitus, affectiones ususque corporis apti esse ad naturam videntur. Se omnia, quae secundum naturam sint, b o n a appellare, quae autem contra, m a l a. Num igitur utiliorem tibi hunc Triarium putas esse posse, quam si tua sint Puteolis granaria? Amicitiae vero locus ubi esse potest aut quis amicus esse cuiquam, quem non ipsum amet propter ipsum? Is ita vivebat, ut nulla tam exquisita posset inveniri voluptas, qua non abundaret. Nemo enim est, qui aliter dixerit quin omnium naturarum simile esset id, ad quod omnia referrentur, quod est ultimum rerum appetendarum. Nam cum in Graeco sermone haec ipsa quondam rerum nomina novarum * * non videbantur, quae nunc consuetudo diuturna trivit; Curium putes loqui, interdum ita laudat, ut quid praeterea sit bonum neget se posse ne suspicari quidem. Itaque e contrario moderati aequabilesque habitus, affectiones ususque corporis apti esse ad naturam videntur. Sed id ne cogitari quidem potest quale sit, ut non repugnet ipsum sibi. Nam ceteris in rebus síve praetermissum sive ignoratum est quippiam, non plus incommodi est, quam quanti quaeque earum rerum est, in quibus neglectum est aliquíd. Quam haec sunt contraria! hic si definire, si dividere didicisset, si loquendi vim, si denique consuetudinem verborum teneret, numquam in tantas salebras incidisset. </p>
 
 </p>
+<a href="#top">Back to top</a>
  </div>
  <br style="clear: left;" />
  </div>
 
- <script src="js/jquery-2.1.4.min.js"></script>
- <script src="js/bootstrap.min.js"></script>
- <script src="js/script.js"></script>
+ 
+ 
 </body> 
